@@ -5,7 +5,13 @@ using System.Collections.Generic;
 
 class GFG
 {
-
+    public static void loopThrough2(Dictionary<string, string> theDict) {
+        foreach (KeyValuePair<string, string> element in theDict)
+        {
+            Console.WriteLine($"{element.Key}: {element.Value}");
+        }
+        Console.WriteLine();
+    }
     // Main Method
     static public void Main()
     {
@@ -22,10 +28,9 @@ class GFG
         My_dict1.Add(1124, "to");
         My_dict1.Add(1125, "GeeksforGeeks");
 
-        foreach (KeyValuePair<int, string> ele1 in My_dict1)
+        foreach (KeyValuePair<int, string> element in My_dict1)
         {
-            Console.WriteLine("{0} and {1}",
-                        ele1.Key, ele1.Value);
+            Console.WriteLine("{0}: {1}", element.Key, element.Value);
         }
         Console.WriteLine();
 
@@ -39,9 +44,8 @@ class GFG
                                 {"a.2", "Cat"},
                                 {"a.3", "Pig"} };
 
-        foreach (KeyValuePair<string, string> ele2 in My_dict2)
-        {
-            Console.WriteLine("{0} and {1}", ele2.Key, ele2.Value);
-        }
+        loopThrough2(My_dict2);
+        My_dict2.Remove("a.2");
+        loopThrough2(My_dict2);
     }
 }
