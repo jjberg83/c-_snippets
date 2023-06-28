@@ -1,0 +1,15 @@
+/Users/jjberg/Github/c-_snippets/mathPow/bin/Debug/net7.0/mathPow
+/Users/jjberg/Github/c-_snippets/mathPow/bin/Debug/net7.0/mathPow.deps.json
+/Users/jjberg/Github/c-_snippets/mathPow/bin/Debug/net7.0/mathPow.runtimeconfig.json
+/Users/jjberg/Github/c-_snippets/mathPow/bin/Debug/net7.0/mathPow.dll
+/Users/jjberg/Github/c-_snippets/mathPow/bin/Debug/net7.0/mathPow.pdb
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.csproj.AssemblyReference.cache
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.AssemblyInfoInputs.cache
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.AssemblyInfo.cs
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.csproj.CoreCompileInputs.cache
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.dll
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/refint/mathPow.dll
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.pdb
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/mathPow.genruntimeconfig.cache
+/Users/jjberg/Github/c-_snippets/mathPow/obj/Debug/net7.0/ref/mathPow.dll
