@@ -1,0 +1,15 @@
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/bin/Debug/net7.0/delegates_events_mosh
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/bin/Debug/net7.0/delegates_events_mosh.deps.json
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/bin/Debug/net7.0/delegates_events_mosh.runtimeconfig.json
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/bin/Debug/net7.0/delegates_events_mosh.dll
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/bin/Debug/net7.0/delegates_events_mosh.pdb
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.csproj.AssemblyReference.cache
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.AssemblyInfoInputs.cache
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.AssemblyInfo.cs
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.csproj.CoreCompileInputs.cache
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.dll
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/refint/delegates_events_mosh.dll
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.pdb
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/delegates_events_mosh.genruntimeconfig.cache
+/Users/jjberg/Github/c-_snippets/delegates_events_mosh/obj/Debug/net7.0/ref/delegates_events_mosh.dll
