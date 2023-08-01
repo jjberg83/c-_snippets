@@ -2,9 +2,14 @@
 
 class Program
 {
+    public static string NameShuffle(string str)
+    {
+        return $">>    {str}    >>";
+    }
+
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine(NameShuffle("KanonKode"));
     }
 }
 
