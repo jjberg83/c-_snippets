@@ -18,6 +18,7 @@ namespace EventsAndDelegates
 
         // tror dette kalles "signature", her definerer vi "signature"
         // kan droppes med kodelinjen under (da trenger vi ikke lage vår egen custom "signature")
+        // sto originalt EventArgs args som parameter nummer 2
         // public delegate void VideoEncodedEventHandler(object source, VideoEventArgs args); 
 
         // Steg 2
