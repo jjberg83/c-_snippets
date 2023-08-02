@@ -1,0 +1,15 @@
+/Users/jjberg/Github/c-_snippets/staticExperiments/bin/Debug/net7.0/staticExperiments
+/Users/jjberg/Github/c-_snippets/staticExperiments/bin/Debug/net7.0/staticExperiments.deps.json
+/Users/jjberg/Github/c-_snippets/staticExperiments/bin/Debug/net7.0/staticExperiments.runtimeconfig.json
+/Users/jjberg/Github/c-_snippets/staticExperiments/bin/Debug/net7.0/staticExperiments.dll
+/Users/jjberg/Github/c-_snippets/staticExperiments/bin/Debug/net7.0/staticExperiments.pdb
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.csproj.AssemblyReference.cache
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.AssemblyInfoInputs.cache
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.AssemblyInfo.cs
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.csproj.CoreCompileInputs.cache
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.dll
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/refint/staticExperiments.dll
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.pdb
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/staticExperiments.genruntimeconfig.cache
+/Users/jjberg/Github/c-_snippets/staticExperiments/obj/Debug/net7.0/ref/staticExperiments.dll
