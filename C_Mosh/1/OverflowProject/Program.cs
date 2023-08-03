@@ -18,6 +18,10 @@ class Program
             catch
             {
                 Console.WriteLine("Noe gikk galt her...");
+                Console.WriteLine("Testing av cw");
+                Console.WriteLine("Enda litt øving av cw");
+                Console.WriteLine("Finnes det en enda kortere måte?");
+                Console.WriteLine("Nei, men dette er jo raskt nok!");
             }
         }
     }
