@@ -1,0 +1,15 @@
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/bin/Debug/net7.0/TypeConversion
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/bin/Debug/net7.0/TypeConversion.deps.json
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/bin/Debug/net7.0/TypeConversion.runtimeconfig.json
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/bin/Debug/net7.0/TypeConversion.dll
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/bin/Debug/net7.0/TypeConversion.pdb
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.csproj.AssemblyReference.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.AssemblyInfoInputs.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.AssemblyInfo.cs
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.csproj.CoreCompileInputs.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.dll
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/refint/TypeConversion.dll
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.pdb
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/TypeConversion.genruntimeconfig.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/TypeConversion/obj/Debug/net7.0/ref/TypeConversion.dll

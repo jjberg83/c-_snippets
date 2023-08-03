@@ -1,0 +1,15 @@
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/bin/Debug/net7.0/MinMaxValue
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/bin/Debug/net7.0/MinMaxValue.deps.json
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/bin/Debug/net7.0/MinMaxValue.runtimeconfig.json
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/bin/Debug/net7.0/MinMaxValue.dll
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/bin/Debug/net7.0/MinMaxValue.pdb
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.csproj.AssemblyReference.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.AssemblyInfoInputs.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.AssemblyInfo.cs
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.csproj.CoreCompileInputs.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.dll
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/refint/MinMaxValue.dll
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.pdb
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/MinMaxValue.genruntimeconfig.cache
+/Users/jjberg/Github/c-_snippets/C_Mosh/1/MinMaxValue/obj/Debug/net7.0/ref/MinMaxValue.dll
