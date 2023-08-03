@@ -8,7 +8,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, Wkorld!");
+        Console.WriteLine("Hello, J-World!");
     }
 }
 
