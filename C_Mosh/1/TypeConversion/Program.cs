@@ -25,6 +25,12 @@ class Program
         int intTallParse = int.Parse(strTall);
         Console.WriteLine($"intTall: {intTall}, intTallParse: {intTallParse}");
 
+        // 257 blir 1 00000001 i binær
+        int dataLoss = 257;
+        byte dataLossByte = (byte)dataLoss;
+        Console.WriteLine($"dataLossByte: {dataLossByte}");
+        // Vi ser at her har vi hatt dataloss.
+        // Tallet skulle vært 257, nå er det 1.
         
     }
 }
