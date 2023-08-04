@@ -1,9 +1,9 @@
 ﻿namespace NonPrimitiveProject;
 
 class Program
-{
-    static void Main(string[] args)
     {
+        static void Main(string[] args)
+        {
         //////////////////////////////////
         /// CLASSES Video
         //////////////////////////////////
@@ -25,7 +25,17 @@ class Program
         /// STRUCTS Video
         //////////////////////////////////
 
-        // Bare en kommentar
+        // Struct er basically det samme som classes (bare litt mindre å lagre)
+        // Bruksområde er hvis man har tusenvis av klasser (plass å spare da)
+        // eller hvis man har noe enkelt som et punkt (med x og y verdi)
+        // Hvis ikke kan du bare bruke Class
+
+        // se egen fil Punkt.cs for syntaks (helt likt Class)
+        //var firstPoint = new Punkt(3.2f, 5.1f);
+        //firstPoint.Posisjon();
+
+        //////////////////////////////////
+        /// ARRAYS Video
+        //////////////////////////////////
     }
 }
-
