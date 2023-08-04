@@ -31,7 +31,32 @@ class Program
         Console.WriteLine($"dataLossByte: {dataLossByte}");
         // Vi ser at her har vi hatt dataloss.
         // Tallet skulle vært 257, nå er det 1.
-        
+
+        string strTall2 = "1234";
+        int tall2 = Convert.ToInt32(strTall2);
+        Console.WriteLine($"tall2: {tall2}");
+
+        string strTall3 = "4321";
+        try
+        {
+            byte tall3 = Convert.ToByte(strTall3);
+            Console.WriteLine($"tall3: {tall3}");
+        }
+        catch
+        {
+            Console.WriteLine("Why you problem me?");
+        }
+
+        try
+        {
+            string sant = "true";
+            bool vel = Convert.ToBoolean(sant);
+            Console.WriteLine($"vel: {vel}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Pokker, kunne ikke konvertere til Boolean");
+        }
     }
 }
 
