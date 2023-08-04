@@ -37,5 +37,11 @@ class Program
         //////////////////////////////////
         /// ARRAYS Video
         //////////////////////////////////
+
+        //int[] myArray = new int[5];
+        //Console.WriteLine(myArray[0]);
+        //myArray[0] = 1;
+        //Console.WriteLine(myArray[0]);
+
     }
 }
