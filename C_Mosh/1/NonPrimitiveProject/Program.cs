@@ -65,5 +65,43 @@ class Program
         //Console.WriteLine(familienMin[1]);
         //Console.WriteLine(familienMin[2]);
         //Console.WriteLine(familienMin[3]);
+
+        //////////////////////////////////
+        /// STRINGS Video
+        //////////////////////////////////
+        ///
+
+        //Console.WriteLine("Hva er fornavnet ditt?");
+        //string fornavn = Console.ReadLine();
+        //Console.WriteLine("Hva er etternavnet ditt?");
+        //string etternavn = Console.ReadLine();
+
+        //// 3 måter å gjøre akkurat det samme på
+        //string navn = string.Format("{0} {1}",fornavn,etternavn);
+        //string navN = $"{fornavn} {etternavn}";
+        //string Navn = fornavn + " " + etternavn;
+
+        //Console.WriteLine($"Navnet er {navn}");
+        //Console.WriteLine($"Navnet er {navN}");
+        //Console.WriteLine($"Navnet er {Navn}");
+
+        //var myNums = new int[7] { 1, 2, 3, 4, 5, 6, 7 };
+        //var myNumsStr = string.Join("-",myNums);
+        //Console.WriteLine(myNumsStr);
+
+        //Console.WriteLine("Jeg heter \"Jørund\"");
+
+        // Verbatim string
+        string @for = "for er et reservert keyword"; // men med @ foran går det greit
+        Console.WriteLine($"for: {@for}"); // men legg merke til at man må bruke her også
+
+        string dobbelSitat = @""""""; // Ikke mulig uten @ verbatim symbolet
+        Console.WriteLine($"dobbelSitat: {dobbelSitat}");
+
+        // Hadde man ikke hatt @ under ville sekvensene
+        // \T (altså tab) og \N skapt problemer
+        string path = @"\\C:\Testing\New\Target";
+        Console.WriteLine($"path: {@path}");
+
     }
 }
