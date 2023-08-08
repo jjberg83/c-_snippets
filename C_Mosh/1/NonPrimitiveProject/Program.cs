@@ -141,5 +141,23 @@ partial class Program
 
         var method = ShippingMethod.RegisteredAirMail;
         Console.WriteLine(method);
+        // For å se selve verdien må jeg gjøre slik
+        Console.WriteLine((int)method);
+
+        // for å konvertere enum'en til en string
+        // er egentlig unødvendig når man bruker
+        // Console.WriteLine, siden den bruker ToString automatisk
+        Console.WriteLine(method.ToString());
+
+        // Jeg kan også caste ShippingMethod slik
+        Console.WriteLine("Hvilken måte skal pakken sendes på?");
+        var input = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"Shipping via {(ShippingMethod)input}");
+
+        // Konvertere fra string til enum
+        var methodName = "Express";
+        var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
+        // Når man holder musepeker over var over, ser man at det er enum
+        Console.WriteLine(typeof(ShippingMethod));
     }
 }
