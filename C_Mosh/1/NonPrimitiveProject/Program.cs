@@ -92,16 +92,38 @@ class Program
         //Console.WriteLine("Jeg heter \"Jørund\"");
 
         // Verbatim string
-        string @for = "for er et reservert keyword"; // men med @ foran går det greit
-        Console.WriteLine($"for: {@for}"); // men legg merke til at man må bruke her også
+        //string @for = "for er et reservert keyword"; // men med @ foran går det greit
+        //Console.WriteLine($"for: {@for}"); // men legg merke til at man må bruke her også
 
-        string dobbelSitat = @""""""; // Ikke mulig uten @ verbatim symbolet
-        Console.WriteLine($"dobbelSitat: {dobbelSitat}");
+        //string dobbelSitat = @""""""; // Ikke mulig uten @ verbatim symbolet
+        //Console.WriteLine($"dobbelSitat: {dobbelSitat}");
 
-        // Hadde man ikke hatt @ under ville sekvensene
-        // \T (altså tab) og \N skapt problemer
-        string path = @"\\C:\Testing\New\Target";
-        Console.WriteLine($"path: {@path}");
+        //// Hadde man ikke hatt @ under ville sekvensene
+        //// \T (altså tab) og \N skapt problemer
+        //string path = @"\\C:\Testing\New\Target";
+        //Console.WriteLine($"path: {@path}");
 
+        //////////////////////////////////
+        /// STRINGS:DEMO Video
+        //////////////////////////////////
+        ///
+
+        // om man bruker string, bruker man C# sin klasse
+        // bruker man String (stor s), bruker man akkurat det samme
+        //, men bare fra .NET framework. I praksis er de prikk like.
+        var firstName = "Jørund";
+        String lastName = "Berg";
+        Console.WriteLine($"Jeg heter {firstName} {lastName}");
+
+        var names = new string[3] { "Lori", "Elly", "Marlene" };
+        var namesStr = string.Join(",", names);
+        Console.WriteLine(namesStr);
+
+        // Med @ foran får vi stringen ut akkurat slik den står
+        var verbatimStr = @"Hi John
+Look into the following paths
+c:\\folder1\\folder2
+c:\\folder3\\folder4";
+        Console.WriteLine(@verbatimStr);
     }
 }
