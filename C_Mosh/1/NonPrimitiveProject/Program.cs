@@ -136,6 +136,9 @@ partial class Program
         //const int RegisteredAirMail = 2;
         //const int Express = 3;
 
+        // i stedet samler man alle disse i en enum
+        // se enumen i ShippingMethod.cs
+
         var method = ShippingMethod.RegisteredAirMail;
         Console.WriteLine(method);
     }
