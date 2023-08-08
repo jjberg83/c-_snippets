@@ -1,9 +1,9 @@
 ﻿namespace NonPrimitiveProject;
 
 class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
         //////////////////////////////////
         /// CLASSES Video
         //////////////////////////////////
@@ -125,5 +125,36 @@ Look into the following paths
 c:\\folder1\\folder2
 c:\\folder3\\folder4";
         Console.WriteLine(@verbatimStr);
+
+        //////////////////////////////////
+        /// ENUMS Video
+        //////////////////////////////////
+        ///
+
+        //Brukes når man har flere relaterte konstanter
+
+        //I stedet for dette
+        const int RegularAirMail = 1;
+        const int RegisteredAirMail = 2;
+        const int Express = 3;
+
+        Console.WriteLine(RegularAirMail);
+        Console.WriteLine(RegisteredAirMail);
+        Console.WriteLine(Express);
+
+        //Bruk heller enums
+        //Default er at de er int
+        //Vi har gjort vår om til byte
+
+        //enum ShippingMethod
+        //{
+        //    RegularAirMail = 1,
+        //    RegisteredAirMail = 2,
+        //    Express = 3
+        //}
+
+        //var method = ShippingMethod.Express;
+
+        //Console.WriteLine(method);
     }
 }
