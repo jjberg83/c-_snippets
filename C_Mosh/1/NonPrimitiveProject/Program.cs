@@ -139,25 +139,48 @@ partial class Program
         // i stedet samler man alle disse i en enum
         // se enumen i ShippingMethod.cs
 
-        var method = ShippingMethod.RegisteredAirMail;
-        Console.WriteLine(method);
-        // For å se selve verdien må jeg gjøre slik
-        Console.WriteLine((int)method);
+        //var method = ShippingMethod.RegisteredAirMail;
+        //Console.WriteLine(method);
+        //// For å se selve verdien må jeg gjøre slik
+        //Console.WriteLine((int)method);
 
-        // for å konvertere enum'en til en string
-        // er egentlig unødvendig når man bruker
-        // Console.WriteLine, siden den bruker ToString automatisk
-        Console.WriteLine(method.ToString());
+        //// for å konvertere enum'en til en string
+        //// er egentlig unødvendig når man bruker
+        //// Console.WriteLine, siden den bruker ToString automatisk
+        //Console.WriteLine(method.ToString());
 
-        // Jeg kan også caste ShippingMethod slik
-        Console.WriteLine("Hvilken måte skal pakken sendes på?");
-        var input = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine($"Shipping via {(ShippingMethod)input}");
+        //// Jeg kan også caste ShippingMethod slik
+        //Console.WriteLine("Hvilken måte skal pakken sendes på?");
+        //var input = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine($"Shipping via {(ShippingMethod)input}");
 
-        // Konvertere fra string til enum
-        var methodName = "Express";
-        var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
-        // Når man holder musepeker over var over, ser man at det er enum
-        Console.WriteLine(typeof(ShippingMethod));
+        //// Konvertere fra string til enum
+        //var methodName = "Express";
+        //var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
+        //// Når man holder musepeker over var over, ser man at det er enum
+        //Console.WriteLine(typeof(ShippingMethod));
+
+        //////////////////////////////////
+        /// VALUE VS REFERENCE TYPE Video 1
+        //////////////////////////////////
+        ///
+
+        //var a = 10;
+        //var b = a;
+        //b++;
+        //a = 20;
+        //Console.WriteLine(string.Format("a: {0}, b: {1}", a, b));
+
+        //var A = new string[] { "ole", "dole", "doffen" };
+        //var B = A;
+        //B[0] = "skole";
+        //Console.WriteLine(string.Format("A[0]: {0}, A[1]: {1}, A[2]: {2}, B[0]: {3}, B[1]: {4},B[2]: {5}", A[0], A[1], A[2], B[0], B[1], B[2]));
+
+        //////////////////////////////////
+        /// VALUE VS REFERENCE TYPE Video 2
+        //////////////////////////////////
+        ///
+
+
     }
 }
