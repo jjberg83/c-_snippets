@@ -1,6 +1,6 @@
 ﻿namespace NonPrimitiveProject;
 
-class Program
+partial class Program
 {
     static void Main(string[] args)
     {
@@ -111,50 +111,32 @@ class Program
         // om man bruker string, bruker man C# sin klasse
         // bruker man String (stor s), bruker man akkurat det samme
         //, men bare fra .NET framework. I praksis er de prikk like.
-        var firstName = "Jørund";
-        String lastName = "Berg";
-        Console.WriteLine($"Jeg heter {firstName} {lastName}");
+        //        var firstName = "Jørund";
+        //        String lastName = "Berg";
+        //        Console.WriteLine($"Jeg heter {firstName} {lastName}");
 
-        var names = new string[3] { "Lori", "Elly", "Marlene" };
-        var namesStr = string.Join(",", names);
-        Console.WriteLine(namesStr);
+        //        var names = new string[3] { "Lori", "Elly", "Marlene" };
+        //        var namesStr = string.Join(",", names);
+        //        Console.WriteLine(namesStr);
 
-        // Med @ foran får vi stringen ut akkurat slik den står
-        var verbatimStr = @"Hi John
-Look into the following paths
-c:\\folder1\\folder2
-c:\\folder3\\folder4";
-        Console.WriteLine(@verbatimStr);
+        //        // Med @ foran får vi stringen ut akkurat slik den står
+        //        var verbatimStr = @"Hi John
+        //Look into the following paths
+        //c:\\folder1\\folder2
+        //c:\\folder3\\folder4";
+        //        Console.WriteLine(@verbatimStr);
 
         //////////////////////////////////
         /// ENUMS Video
         //////////////////////////////////
         ///
 
-        //Brukes når man har flere relaterte konstanter
+        // Man bruker enums når man har flere relaterte konstanter som under
+        //const int RegularAirMail = 1;
+        //const int RegisteredAirMail = 2;
+        //const int Express = 3;
 
-        //I stedet for dette
-        const int RegularAirMail = 1;
-        const int RegisteredAirMail = 2;
-        const int Express = 3;
-
-        Console.WriteLine(RegularAirMail);
-        Console.WriteLine(RegisteredAirMail);
-        Console.WriteLine(Express);
-
-        //Bruk heller enums
-        //Default er at de er int
-        //Vi har gjort vår om til byte
-
-        //enum ShippingMethod
-        //{
-        //    RegularAirMail = 1,
-        //    RegisteredAirMail = 2,
-        //    Express = 3
-        //}
-
-        //var method = ShippingMethod.Express;
-
-        //Console.WriteLine(method);
+        var method = ShippingMethod.RegisteredAirMail;
+        Console.WriteLine(method);
     }
 }
