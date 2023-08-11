@@ -71,7 +71,28 @@ class Program
         /////////////////////////////
         /// DEMO FOREACH LOOPS
         /////////////////////////////
+        ///
 
+        //var name = "Jørund";
+
+        // med for loop
+        //for (var i = 0; i < name.Length; i++)
+        //{
+        //    Console.WriteLine(name[i]);
+        //}
+
+        // Samme med foreach
+        //foreach (char bokstav in name)
+        //{
+        //    Console.WriteLine(bokstav);
+        //}
+
+        //iterer over en array
+        //var minArray = new int[4] { 10, 20, 30, 40};
+        //foreach(var tall in minArray)
+        //{
+        //    Console.WriteLine(tall);
+        //}
     }
 }
 
