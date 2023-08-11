@@ -62,22 +62,43 @@ class Program
         // width and height of an image. Then tell if the
         // image is landscape or portrait.
 
-        Console.WriteLine("Enter width of image:");
-        var widthStr = Console.ReadLine();
-        float width;
-        bool widthValider = float.TryParse(widthStr, out width);
-        Console.WriteLine("Enter height of image:");
-        var heightStr = Console.ReadLine();
-        float height;
-        bool heightValider = float.TryParse(heightStr, out height);
-        bool landscape = (width > height) ? true : false;
-        if (landscape)
-            Console.WriteLine("The image is a \"landscape\"");
-        else
-            Console.WriteLine("The image is a \"portrait\"");
+        //Console.WriteLine("Enter width of image:");
+        //var widthStr = Console.ReadLine();
+        //float width;
+        //bool widthValider = float.TryParse(widthStr, out width);
+        //Console.WriteLine("Enter height of image:");
+        //var heightStr = Console.ReadLine();
+        //float height;
+        //bool heightValider = float.TryParse(heightStr, out height);
+        //bool landscape = (width > height) ? true : false;
+        //if (landscape)
+        //    Console.WriteLine("The image is a \"landscape\"");
+        //else
+        //    Console.WriteLine("The image is a \"portrait\"");
 
+        // 4- Your job is to write a program for a speed camera.
+        // For simplicity, ignore the details such as camera,
+        // sensors, etc and focus purely on the logic.
+        // Write a program that asks the user to enter
+        // the speed limit. Once set, the program asks for the
+        // speed of a car. If the user enters a value less than
+        // the speed limit, program should display Ok on the
+        // console. If the value is above the speed limit,
+        // the program should calculate the number of demerit
+        // points. For every 5km/hr above the speed limit,
+        // 1 demerit points should be incurred and displayed
+        // on the console. If the number of demerit points
+        // is above 12, the program should display
+        // License Suspended.
 
-
+        Console.WriteLine("Enter speed limit:");
+        var speedLimitStr = Console.ReadLine();
+        Console.WriteLine("Enter actual car speed:");
+        var carSpeedStr = Console.ReadLine();
+        float speedLimit, carSpeed;
+        bool speedLimitValidate = float.TryParse(speedLimitStr, out speedLimit);
+        bool carSpeedValidate = float.TryParse(carSpeedStr, out carSpeed);
+        
 
     }
 }
