@@ -91,14 +91,18 @@ class Program
         // is above 12, the program should display
         // License Suspended.
 
-        Console.WriteLine("Enter speed limit:");
-        var speedLimitStr = Console.ReadLine();
-        Console.WriteLine("Enter actual car speed:");
-        var carSpeedStr = Console.ReadLine();
-        float speedLimit, carSpeed;
-        bool speedLimitValidate = float.TryParse(speedLimitStr, out speedLimit);
-        bool carSpeedValidate = float.TryParse(carSpeedStr, out carSpeed);
-        
+        //Console.WriteLine("Enter speed limit:");
+        //var speedLimitStr = Console.ReadLine();
+        //Console.WriteLine("Enter actual car speed:");
+        //var carSpeedStr = Console.ReadLine();
+        //float speedLimit, carSpeed;
+        //bool speedLimitValidate = float.TryParse(speedLimitStr, out speedLimit);
+        //bool carSpeedValidate = float.TryParse(carSpeedStr, out carSpeed);
+        //var demeritPoints = Math.Floor((carSpeed - speedLimit) / 5);
+        //Console.WriteLine($"demeritPoints: {demeritPoints}");
+        //Console.WriteLine(Math.Floor((carSpeed - speedLimit) / 5));
+        //bool suspension = demeritPoints >= 12 ? true : false;
+        //Console.WriteLine(suspension ? "License Suspended" : "Close, but no prison for you");
 
     }
 }
