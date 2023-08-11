@@ -93,6 +93,33 @@ class Program
         //{
         //    Console.WriteLine(tall);
         //}
+
+        ///////////////////////////
+        /// DEMO WHILE LOOPS
+        ///////////////////////////
+        ///
+
+        // Display even numbers up to 10
+        //var i=1;
+        //while (i <= 10)
+        //{
+        //    if (i%2 == 0)
+        //        Console.WriteLine(i);
+        //    i++;
+        //}
+
+        //while (true)
+        //{
+        //    Console.WriteLine("What´s your name?");
+        //    var name = Console.ReadLine();
+        //    if (String.IsNullOrWhiteSpace(name))
+        //    {
+        //        Console.WriteLine("You didn´t write anything, so loop will stop"); ;
+        //        break;
+        //    }
+        //    Console.WriteLine($"You wrote: {name}");
+        //}
+        //Console.WriteLine("While loop ferdig");
     }
 }
 
