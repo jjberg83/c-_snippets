@@ -58,6 +58,26 @@ class Program
         //else
         //    Console.WriteLine("Input var ikke gyldig.");
 
+        // 3- Write a program and ask the user to enter the
+        // width and height of an image. Then tell if the
+        // image is landscape or portrait.
+
+        Console.WriteLine("Enter width of image:");
+        var widthStr = Console.ReadLine();
+        float width;
+        bool widthValider = float.TryParse(widthStr, out width);
+        Console.WriteLine("Enter height of image:");
+        var heightStr = Console.ReadLine();
+        float height;
+        bool heightValider = float.TryParse(heightStr, out height);
+        bool landscape = (width > height) ? true : false;
+        if (landscape)
+            Console.WriteLine("The image is a \"landscape\"");
+        else
+            Console.WriteLine("The image is a \"portrait\"");
+
+
+
 
     }
 }
