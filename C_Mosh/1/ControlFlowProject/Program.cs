@@ -120,6 +120,37 @@ class Program
         //    Console.WriteLine($"You wrote: {name}");
         //}
         //Console.WriteLine("While loop ferdig");
+
+        ///////////////////////////
+        /// RANDOM CLASS
+        ///////////////////////////
+        ///
+
+        //var random = new Random();
+        //const int passwordLength = 10;
+        //var passwordArr = new char[passwordLength];
+        //for (var i = 0; i < passwordLength; i++)
+        //{
+        //    // parameterene er (min, max)
+        //    // har man kun ett tall inni tolkes det som (max)
+        //    // har man ingen, genereres en random integer (tipper int32)
+        //    //Console.WriteLine(random.Next(13,18));
+
+        //    //Console.WriteLine((int)'a');
+
+        //    // tilfeldig liten bokstav
+        //    //Console.Write((char)random.Next(97, 122));
+
+        //    passwordArr[i] = (char)random.Next(97, 122);
+        //    Console.WriteLine($"passwordArr[{i}] er {passwordArr[i]}"); ;
+
+        //}
+
+        //// så smelter arrayen sammen til en string i en go
+        //// slik at man slipper å skape 10 nye strings
+        //var password = new string(passwordArr);
+        //Console.WriteLine($"Det tilfeldige passordet er {password}");
+
     }
 }
 
