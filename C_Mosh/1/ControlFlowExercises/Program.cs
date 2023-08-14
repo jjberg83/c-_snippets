@@ -104,6 +104,29 @@ class Program
         //bool suspension = demeritPoints >= 12 ? true : false;
         //Console.WriteLine(suspension ? "License Suspended" : "Close, but no prison for you");
 
+        // Her kommer runde 2 med exercises
+
+        // 1 - Write a program to count how many numbers
+        // between 1 and 100 are divisible by 3 with no
+        // remainder.Display the count on the console.
+
+        //int count = 0;
+        //for (var i = 1; i <= 100; i++)
+        //{
+        //    if (i % 3 == 0)
+        //    {
+        //        Console.WriteLine(i);
+        //        Console.WriteLine(i%3);
+        //        Console.WriteLine("--------------");
+        //        count++;
+        //    }
+        //}
+        //Console.WriteLine($"Endelig antall: {count}");
+
+        //2 - Write a program and continuously ask the user to
+        //enter a number or "ok" to exit. Calculate the sum
+        //of all the previously entered numbers and display it
+        //on the console.
     }
 }
 
