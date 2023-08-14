@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Net.Sockets;
+using System.Threading.Channels;
 
 namespace ControlFlowExercises;
 class Program
@@ -147,7 +150,7 @@ class Program
         //! = 120.
 
         //int theFactorial;
-        
+
         //Console.WriteLine("Enter a number you would like to find the factorial of:");
         //theFactorial = Convert.ToInt32(Console.ReadLine());
         //Console.WriteLine($"Du skrev: {theFactorial}");
@@ -158,8 +161,35 @@ class Program
         //    Console.WriteLine($"theFactorial nå: {theFactorial}");
         //    Console.WriteLine("------------------");
         //}
-        
+
         //Console.WriteLine($"theFactorial: {theFactorial}");
+
+        //4 - Write a program that picks a random number between
+        //1 and 10.Give the user 4 chances to guess the number.
+        //If the user guesses the number, display “You won";
+        //otherwise, display “You lost". (To make sure the program
+        //is behaving correctly, you can display the secret number
+        //on the console first.)
+
+        //var didNotGuessIt = true;
+        //int theAnswer = new Random().Next(1, 10);
+        //int theGuess;
+        //Console.WriteLine($"theAnswer: {theAnswer}");
+
+        //for(var i = 4; i > 0; i--)
+        //{
+        //    Console.WriteLine($"Guess number {i}:");
+        //    theGuess = Convert.ToInt32(Console.ReadLine());
+        //    if(theAnswer==theGuess)
+        //    {
+        //        Console.WriteLine("You won!");
+        //        didNotGuessIt = false;
+        //        break;
+        //    }
+        //}
+        //if(didNotGuessIt)
+        //    Console.WriteLine("You lost!");
+
     }
 }
 
