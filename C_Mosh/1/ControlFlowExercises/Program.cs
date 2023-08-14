@@ -128,17 +128,38 @@ class Program
         //of all the previously entered numbers and display it
         //on the console.
 
-        double theSum = 0.0;
-        while(true)
-        {
-            Console.WriteLine("Enter a number:");
-            var theString = Console.ReadLine();
-            if (theString == "ok")
-                break;
-            var theNumber = Convert.ToDouble(theString);
-            theSum += theNumber;
-        }
-        Console.WriteLine($"theSum: {theSum}");
+        //double theSum = 0.0;
+        //while(true)
+        //{
+        //    Console.WriteLine("Enter a number:");
+        //    var theString = Console.ReadLine();
+        //    if (theString == "ok")
+        //        break;
+        //    var theNumber = Convert.ToDouble(theString);
+        //    theSum += theNumber;
+        //}
+        //Console.WriteLine($"theSum: {theSum}");
+
+        //3 - Write a program and ask the user to enter a number.
+        //Compute the factorial of the number and print it on the
+        //console. For example, if the user enters 5, the program
+        //should calculate 5 x 4 x 3 x 2 x 1 and display it as 5
+        //! = 120.
+
+        //int theFactorial;
+        
+        //Console.WriteLine("Enter a number you would like to find the factorial of:");
+        //theFactorial = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine($"Du skrev: {theFactorial}");
+        //for(var i = theFactorial; i > 1; i--)
+        //{
+        //    Console.WriteLine($"i: {i}, theFactorial: {theFactorial}, i - 1: {i-1}");
+        //    theFactorial *= (i - 1);
+        //    Console.WriteLine($"theFactorial nå: {theFactorial}");
+        //    Console.WriteLine("------------------");
+        //}
+        
+        //Console.WriteLine($"theFactorial: {theFactorial}");
     }
 }
 
