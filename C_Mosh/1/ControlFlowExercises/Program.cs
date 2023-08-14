@@ -127,6 +127,18 @@ class Program
         //enter a number or "ok" to exit. Calculate the sum
         //of all the previously entered numbers and display it
         //on the console.
+
+        double theSum = 0.0;
+        while(true)
+        {
+            Console.WriteLine("Enter a number:");
+            var theString = Console.ReadLine();
+            if (theString == "ok")
+                break;
+            var theNumber = Convert.ToDouble(theString);
+            theSum += theNumber;
+        }
+        Console.WriteLine($"theSum: {theSum}");
     }
 }
 
