@@ -26,6 +26,27 @@ class Program
         //matrix[1] = new int[5] {4,5,6,7,8}; // rad 2 skal ha array med 5 elementer
         //matrix[0] = new int[4] {9,10,11,12}; // rad 3 skal ha array med 4 elementer
         //Console.WriteLine($"{matrix[1][2]}");
+
+        ////////////////////
+        ///  Demo:Arrays video
+        ////////////////////
+        ///
+
+        //int[] numbers = new int[] { 3, 7, 9, 2, 14, 6 };
+        var numbers = new[] { 3, 7, 9, 2, 14, 6, 9 };
+        //Console.WriteLine($"Lengde numbers: {numbers.Length}");
+        //Console.WriteLine($"9 kommer første gang på indeks {Array.IndexOf(numbers, 9)}");
+        Array.Clear(numbers, 0, 2);
+        //foreach(var tall in numbers)
+        //    Console.WriteLine(tall);
+
+        // copy, syntaks er Array.Copy(src,dst,numberOfElements)
+        var anotherArr = new int[3];
+        Array.Copy(numbers, anotherArr, 3);
+        foreach(var tall in anotherArr)
+            Console.WriteLine(tall);
+
+
     }
 }
 
