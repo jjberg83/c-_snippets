@@ -57,6 +57,16 @@ class Program
         ////////////////////
         ///
 
+        var numbers = new List<int>();
+        var navn = new List<string> { "stian", "marit", "benjamin", "jørund" };
+        foreach(var fornavn in navn)
+            Console.WriteLine(fornavn);
+
+        ////////////////////
+        ///  Lists Demo video
+        ////////////////////
+
+
     }
 }
 
