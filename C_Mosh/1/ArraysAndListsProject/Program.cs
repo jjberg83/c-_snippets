@@ -1,4 +1,6 @@
-﻿namespace ArraysAndListsProject;
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace ArraysAndListsProject;
 
 class Program
 {
@@ -57,15 +59,46 @@ class Program
         ////////////////////
         ///
 
-        var numbers = new List<int>();
-        var navn = new List<string> { "stian", "marit", "benjamin", "jørund" };
-        foreach(var fornavn in navn)
-            Console.WriteLine(fornavn);
+        //var numbers = new List<int>();
+        //var navn = new List<string> { "stian", "marit", "benjamin", "jørund" };
+        //foreach(var fornavn in navn)
+        //    Console.WriteLine(fornavn);
 
         ////////////////////
         ///  Lists Demo video
         ////////////////////
+        ///
 
+        //var numbers = new List<int> { 1, 2, 3, 4 };
+        //numbers.Add(1);
+        //numbers.AddRange(new int[3] { 5, 6, 7 });
+        //foreach(var number in numbers)
+        //    Console.WriteLine(number);
+        //Console.WriteLine();
+        //Console.WriteLine("Index of 1:" + numbers.IndexOf(1));
+        //Console.WriteLine("Last Index of 1:" + numbers.LastIndexOf(1));
+        //Console.WriteLine("Antall elementer: "+ numbers.Count);
+
+        //numbers.Remove(1);
+        //foreach (var number in numbers)
+        //    Console.WriteLine(number);
+
+        //foreach(var number in numbers)
+        //{
+        //    if (number == 1)
+        //        numbers.Remove(number);
+        //}
+
+        //for (var i = 0; i < numbers.Count; i++)
+        //{
+        //    if (numbers[i]==1)
+        //        numbers.Remove(numbers[i]);
+        //}
+        //foreach (var number in numbers)
+        //    Console.WriteLine(number);
+
+        //numbers.Clear();
+        //Console.WriteLine("Antall elementer: "+ numbers.Count);
 
     }
 }
