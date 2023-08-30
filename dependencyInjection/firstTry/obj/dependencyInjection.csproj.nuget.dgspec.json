@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jjberg/Github/c-_snippets/dependencyInjection/dependencyInjection.csproj": {}
+    "/Users/jjberg/Github/c-_snippets/dependencyInjection/firstTry/dependencyInjection.csproj": {}
   },
   "projects": {
-    "/Users/jjberg/Github/c-_snippets/dependencyInjection/dependencyInjection.csproj": {
+    "/Users/jjberg/Github/c-_snippets/dependencyInjection/firstTry/dependencyInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jjberg/Github/c-_snippets/dependencyInjection/dependencyInjection.csproj",
+        "projectUniqueName": "/Users/jjberg/Github/c-_snippets/dependencyInjection/firstTry/dependencyInjection.csproj",
         "projectName": "dependencyInjection",
-        "projectPath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/dependencyInjection.csproj",
+        "projectPath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/firstTry/dependencyInjection.csproj",
         "packagesPath": "/Users/jjberg/.nuget/packages/",
-        "outputPath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/obj/",
+        "outputPath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/firstTry/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jjberg/.nuget/NuGet/NuGet.Config"
