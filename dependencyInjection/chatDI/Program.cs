@@ -121,3 +121,11 @@ class UserService
         emailService.SendEmail(email, "Welcome to our website");
     }
 }
+
+/*
+NYTTIGE KOMMANDOER I TERMINALEN FOR Å UNNGÅ FEILMELDINGER:
+
+dotnet add package Microsoft.Extensions.DependencyInjection
+dotnet restore
+dotnet build
+*/
