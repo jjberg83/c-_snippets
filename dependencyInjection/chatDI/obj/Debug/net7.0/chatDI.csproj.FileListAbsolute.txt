@@ -1,0 +1,15 @@
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/bin/Debug/net7.0/chatDI
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/bin/Debug/net7.0/chatDI.deps.json
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/bin/Debug/net7.0/chatDI.runtimeconfig.json
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/bin/Debug/net7.0/chatDI.dll
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/bin/Debug/net7.0/chatDI.pdb
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.csproj.AssemblyReference.cache
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.AssemblyInfoInputs.cache
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.AssemblyInfo.cs
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.csproj.CoreCompileInputs.cache
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.dll
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/refint/chatDI.dll
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.pdb
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.genruntimeconfig.cache
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/ref/chatDI.dll
