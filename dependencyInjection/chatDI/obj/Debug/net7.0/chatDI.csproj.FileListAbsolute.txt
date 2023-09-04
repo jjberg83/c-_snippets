@@ -13,3 +13,6 @@
 /Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.pdb
 /Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.genruntimeconfig.cache
 /Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/ref/chatDI.dll
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/jjberg/Github/c-_snippets/dependencyInjection/chatDI/obj/Debug/net7.0/chatDI.csproj.CopyComplete
