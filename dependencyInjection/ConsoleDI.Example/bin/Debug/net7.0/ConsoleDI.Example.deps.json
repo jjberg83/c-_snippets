@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "secondTry/1.0.0": {
+      "ConsoleDI.Example/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "7.0.1"
         },
         "runtime": {
-          "secondTry.dll": {}
+          "ConsoleDI.Example.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -379,7 +379,7 @@
     }
   },
   "libraries": {
-    "secondTry/1.0.0": {
+    "ConsoleDI.Example/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

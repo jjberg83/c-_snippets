@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/secondTry.csproj": {}
+    "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/ConsoleDI.Example.csproj": {}
   },
   "projects": {
-    "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/secondTry.csproj": {
+    "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/ConsoleDI.Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/secondTry.csproj",
-        "projectName": "secondTry",
-        "projectPath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/secondTry.csproj",
+        "projectUniqueName": "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/ConsoleDI.Example.csproj",
+        "projectName": "ConsoleDI.Example",
+        "projectPath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/ConsoleDI.Example.csproj",
         "packagesPath": "/Users/jjberg/.nuget/packages/",
         "outputPath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/obj/",
         "projectStyle": "PackageReference",

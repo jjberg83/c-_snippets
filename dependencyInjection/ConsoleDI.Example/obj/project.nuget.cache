@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p3M3jaLLhvpZ2AFRdGuXcwq2EpeOVFCb5iu/pkh+M0lbJZgbad1cb4q/iB9sveMym4x35EzVtA0y0qKKs1GPhA==",
+  "dgSpecHash": "Mu1F12uzswsdow7VyIsw520SNK2B56pJWKQrmSsRNCxHU0WqYvvonc7GASGuUTJGir96VJZyA+wxq1tmSdYm/w==",
   "success": true,
-  "projectFilePath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/secondTry.csproj",
+  "projectFilePath": "/Users/jjberg/Github/c-_snippets/dependencyInjection/ConsoleDI.Example/ConsoleDI.Example.csproj",
   "expectedPackageFiles": [
     "/Users/jjberg/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/jjberg/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

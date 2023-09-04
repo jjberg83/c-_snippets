@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/secondTry.csproj",
+                "${workspaceFolder}/ConsoleDI.Example.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/secondTry.csproj",
+                "${workspaceFolder}/ConsoleDI.Example.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/secondTry.csproj"
+                "${workspaceFolder}/ConsoleDI.Example.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
