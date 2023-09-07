@@ -5,13 +5,28 @@ using Microsoft.Extensions.DependencyInjection;
 // vi ser hva vi har tilgang på her, genialt!
 
 var services = new ServiceCollection();
-services.AddSingleton<IDataStore, InMemoryStoreV2>();
+services.AddTransient<IDataStore, InMemoryStoreV2>();
+services.AddSingleton<IRunner, AddTest>();
+services.AddSingleton<IRunner, DisplayTest>();
 var provider = services.BuildServiceProvider();
+
+// var addTest = provider.GetService<IRunner>(); // På neste linje kjøres AddTest når Run() kjøres, siden den er sist ovenfor og vil bare henter alle IRunners
+// addTest.Run();
+
+// Med looping igjennom hele samlingen i stedet for
+var runners = provider.GetServices<IRunner>();
+foreach(var runner in runners)
+{
+    runner.Run();
+}
+//Console.WriteLine($"addTest.Store verdi er nå {addTest.Store.Get()}");
+
 var enMemoryStore = provider.GetRequiredService<IDataStore>();
 
-var enPerson = new Person ("Pippi", "Langstrømpe");
-var enStudent = new Student("Bjørn", "Bjørnsen", 666555);
-var enStudAss = new StudentAssistant("Kai", "Ovesen", 123, 456);
+
+// var enPerson = new Person ("Pippi", "Langstrømpe");
+// var enStudent = new Student("Bjørn", "Bjørnsen", 666555);
+// var enStudAss = new StudentAssistant("Kai", "Ovesen", 123, 456);
 
 // var enMemoryStore = new InMemoryStore(); // Kjør første versjon/implementasjon
 // var enMemoryStore = new InMemoryStoreV2();  // Kjør andre implementasjon
@@ -19,19 +34,42 @@ var enStudAss = new StudentAssistant("Kai", "Ovesen", 123, 456);
 // InMemoryStore enMemoryStore = new InMemoryStore(); 
 // IDataStore enMemoryStore = new InMemoryStore(); // her som interface type!
 // enMemoryStore.Store("Joda"); // siden man ikke legger inn en verdi, vil den bare bli empty, altså ""
-StoreTest(enMemoryStore);
-Console.WriteLine(enMemoryStore.Get());
+//StoreTest(enMemoryStore);
+//Console.WriteLine(enMemoryStore.Get());
 
-PrintPerson(enPerson);
-PrintPerson(enStudent);
-PrintPerson(enStudAss);
-PrintEmployee(enStudAss);
+
+
+// PrintPerson(enPerson);
+// PrintPerson(enStudent);
+// PrintPerson(enStudAss);
+// PrintEmployee(enStudAss);
 // Legg merke til at man over legger inn en instans av StudentAssistant klassen
 // , og det godtas av funksjonen PrintEmployee som krever IEmployee interface som input
 // Godtas fordi klassen StudentAssitant implementerer interfacet
 
+void StoreTest(IDataStore store)
+{
+    store.Store("Litt innhold");
+}
 
-public class AddTest
+void PrintPerson(Person p)
+{
+    Console.WriteLine($"{p.FirstName} {p.LastName}.");
+}
+
+void PrintEmployee(IEmployee studass)
+{
+    Console.WriteLine($"{studass.EmployeeID}");
+}
+
+public interface IDataStore
+{
+    public void Store(string s);
+
+    public string Get();
+}
+
+public class AddTest : IRunner
 {
     public IDataStore Store { get; }
 
@@ -43,22 +81,23 @@ public class AddTest
     public void Run() 
     {
         Store.Store("En test");
+        Console.WriteLine("Har lagret");
     }
 }
-
-void StoreTest(IDataStore store)
+public class DisplayTest : IRunner
 {
-    store.Store("Litt innhold");
-}
+    public IDataStore Store { get; }
 
-void PrintPerson(Person p) 
-{
-    Console.WriteLine($"{p.FirstName} {p.LastName}.");
-}
+    public DisplayTest(IDataStore store)
+    {
+        Store = store;
+    }
 
-void PrintEmployee(IEmployee studass)
-{
-    Console.WriteLine($"{studass.EmployeeID}");
+    public void Run() 
+    {
+        Console.WriteLine(Store.Get());
+        Console.WriteLine("Har displayet");
+    }
 }
 
 public class Person
@@ -107,12 +146,7 @@ public interface IEmployeeV2
     short EmployeeID { get; set; }
 }
 
-public interface IDataStore
-{
-    public void Store(string s);
 
-    public string Get();
-}
 
 public class InMemoryStore : IDataStore
 {
@@ -145,8 +179,8 @@ public class InMemoryStoreV2 : IDataStore
     }
 }
 
-/*
-public void Store(string s);
+public interface IRunner 
+{
+    void Run();
+}
 
-public string Get();
-*/
